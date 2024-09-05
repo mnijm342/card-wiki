@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Warbound - All Cards</title>
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <h1><a href="/index.html">Warbound</a></h1>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="/index.html">Cards</a></li>
+            <li><a href="/home">Rules</a></li>
+            <li><a href="/home">About</a></li>
+        </ul>
+    </header>
+    <div class="display-title">
+          <h1>All Cards</h1>
+          <p>Browse our selection of cards</p>
+    </div>
+    <div class="search-wrapper">
+        <label for="search">Search Cards</label>
+        <input type="search" id="search" data-search>
+    </div>
+        <div class="card-card" card-card-container></div>
+        <template card-template>
+          <div class="card">
+              <div class="header" data-header></div>
+              <div class="body" data-body></div>
+              <img src="imagelink" class="image" data-image></div>
+          </div>
+        </template>      
+</body>
+</html>
